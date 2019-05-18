@@ -55,8 +55,8 @@
 				while($row = mysqli_fetch_assoc($qres)) {
 
 					$response .= "<share>
-								      <userId>".$row["IdLibro"]."</userId>
-									  <bookId>".$row["IdUtente"]."</bookId>
+								      <userId>".$row["IdUtente"]."</userId>
+									  <bookId>".$row["IdLibro"]."</bookId>
 								  </share>";
 				}
 

@@ -50,4 +50,14 @@
 			  </response>";
 	}
 
+	/**
+	 * takes the result data from the DB and <br/>
+	 * formats it into an XML response.
+	 * @param qres the result cursor of the DB.
+	 */
+	function processData($qres) {
+
+
+	}
+
 ?>
